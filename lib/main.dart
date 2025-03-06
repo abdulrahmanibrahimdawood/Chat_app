@@ -1,6 +1,6 @@
 import 'package:chat/firebase_options.dart';
 import 'package:chat/pages/chat_page.dart';
-import 'package:chat/pages/cubit/cubit/login_cubit.dart';
+import 'package:chat/pages/cubit/login_cubit/login_cubit.dart';
 import 'package:chat/pages/login_page.dart';
 import 'package:chat/pages/register_page.dart';
 import 'package:firebase_core/firebase_core.dart';

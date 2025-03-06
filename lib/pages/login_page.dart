@@ -1,7 +1,7 @@
 import 'package:chat/constants.dart';
 import 'package:chat/helper/show_snack_bar.dart';
 import 'package:chat/pages/chat_page.dart';
-import 'package:chat/pages/cubit/cubit/login_cubit.dart';
+import 'package:chat/pages/cubit/login_cubit/login_cubit.dart';
 import 'package:chat/pages/register_page.dart';
 import 'package:chat/widget/custom_buton.dart';
 import 'package:chat/widget/custom_text_feild.dart';
