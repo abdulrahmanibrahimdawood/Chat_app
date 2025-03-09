@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class CustomFormTeaxtField extends StatelessWidget {
   CustomFormTeaxtField(
-      {this.onChanged, this.hintText, this.obscureText = false});
+      {super.key, this.onChanged, this.hintText, this.obscureText = false});
   String? hintText;
   Function(String)? onChanged;
   bool? obscureText;
@@ -14,6 +14,7 @@ class CustomFormTeaxtField extends StatelessWidget {
         if (data!.isEmpty) {
           return 'feild id required';
         }
+        return null;
       },
       onChanged: onChanged,
       decoration: InputDecoration(
